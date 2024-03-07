@@ -13,5 +13,7 @@ console.log(obj);
 const name: string = "vivek";
 console.log(name);
 
+console.log("hi srijan");
+
 export {};
 // use
