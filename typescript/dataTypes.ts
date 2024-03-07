@@ -9,3 +9,9 @@ const obj: Iuser = {
 };
 
 console.log(obj);
+
+const name: string = "vivek";
+console.log(name);
+
+export {};
+// use
