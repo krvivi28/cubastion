@@ -1,19 +1,23 @@
-interface Iuser {
-  name: string;
-  age: number;
-}
+// let id: number = 5;
+// let firstname: string = 'danny';
+// let hasDog: boolean = true;
 
-const obj: Iuser = {
-  name: "vivek",
-  age: 28,
-};
+// let unit: number; // Declare variable without assigning a value
+// unit = 5;
 
-console.log(obj);
+// let name:string;
 
-const name: string = "vivek";
-console.log(name);
 
-console.log("hi srijan");
 
-export {};
-// use
+
+// name=34      //Shows error because name should store string datatype
+
+
+let id = 7; // TS knows it's a number
+let firstname = 'angular'; // TS knows it's a string
+let hasDog = true; // TS knows it's a boolean
+
+// hasDog = 'yes'; // ERROR
+
+
+
